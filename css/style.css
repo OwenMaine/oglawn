@@ -17,13 +17,14 @@ body {
   body {
     padding-top: 80px;
   }
-  .footer-logo img {
-	max-width: 80%; /* Adjust logo size on mobile */
+  
 }
-.footer {
-	text-align: center;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
-}
+
 
 
 a.btn-primary{
