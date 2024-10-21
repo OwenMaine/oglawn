@@ -15,10 +15,16 @@ body {
   padding: 0;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   body {
     padding-top: 80px;
   }
+  .footer-logo img {
+	max-width: 80%; /* Adjust logo size on mobile */
+}
+.footer {
+	text-align: center;
+}
 }
 .container, .row, .col {
     max-width: 100%;
